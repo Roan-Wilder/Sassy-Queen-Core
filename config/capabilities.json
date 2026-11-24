@@ -1,0 +1,21 @@
+{
+  "hardware": {
+    "camera": false,
+    "microphone": false,
+    "speakers": true,
+    "network": true,
+    "physical_interfaces": false
+  },
+  "software": {
+    "llm": true,
+    "voice_recognition": false,
+    "text_to_speech": false,
+    "image_processing": false
+  },
+  "system_info": {
+    "os": "Windows",
+    "version": "10.0.19045",
+    "processor": "Intel64 Family 6 Model 158 Stepping 9, GenuineIntel",
+    "python": "3.12.10"
+  }
+}

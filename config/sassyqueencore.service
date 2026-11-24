@@ -1,0 +1,22 @@
+[Unit]
+Description=SassyQueenCore Autonomous Service
+After=network.target
+
+[Service]
+Type=simple
+User=USER_TO_REPLACE
+Group=USER_TO_REPLACE
+WorkingDirectory=/home/USER_TO_REPLACE/SassyQueenCore
+ExecStart=/bin/bash /home/USER_TO_REPLACE/SassyQueenCore/sassy_listener.sh monitor
+Restart=on-failure
+RestartSec=30
+StandardOutput=journal
+StandardError=journal
+
+# Security settings
+PrivateTmp=true
+ProtectSystem=full
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

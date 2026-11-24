@@ -1,0 +1,10 @@
+{
+  "current_mode": "copilot",
+  "description": "AI suggests actions but requires explicit confirmation before execution.",
+  "safety_protocols": [],
+  "capabilities": {
+    "ai_core": true,
+    "security": true,
+    "physical_access": true
+  }
+}

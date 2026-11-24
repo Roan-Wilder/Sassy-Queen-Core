@@ -1,0 +1,56 @@
+{
+  "servo_pins": {
+    "head_pan": 12,
+    "head_tilt": 13,
+    "left_arm": 16,
+    "right_arm": 18
+  },
+  "sensor_pins": {
+    "proximity": 23,
+    "temperature": 24,
+    "touch": 25
+  },
+  "camera": {
+    "enabled": true,
+    "device_id": 0,
+    "resolution": [640, 480],
+    "fps": 30
+  },
+  "led_pins": {
+    "status": 21,
+    "mood": 22
+  },
+  "expressions": {
+    "joy": {
+      "head_pan": 90,
+      "head_tilt": 100,
+      "left_arm": 45,
+      "right_arm": 135
+    },
+    "sadness": {
+      "head_pan": 90,
+      "head_tilt": 70,
+      "left_arm": 100,
+      "right_arm": 80
+    },
+    "alert": {
+      "head_pan": 90,
+      "head_tilt": 120,
+      "left_arm": 10,
+      "right_arm": 170
+    },
+    "curiosity": {
+      "head_pan": 110,
+      "head_tilt": 100,
+      "left_arm": 80,
+      "right_arm": 100
+    },
+    "thinking": {
+      "head_pan": 70,
+      "head_tilt": 90,
+      "left_arm": 120,
+      "right_arm": 60
+    }
+  },
+  "activation_phrase": "Activate physical mode."
+} 

@@ -1,0 +1,92 @@
+{
+  "awakening": {
+    "name": "Awakening Ritual",
+    "description": "Plugin that executes when SassyQueenCore is awakened",
+    "path": "plugins/awakening.py",
+    "enabled": false
+  },
+  "movement": {
+    "name": "Physical Movement",
+    "description": "Controls physical movement through servos",
+    "path": "plugins/movement.py",
+    "enabled": false
+  },
+  "voice_analysis": {
+    "name": "Voice Analysis",
+    "description": "Analyzes voice patterns for emotion and identity",
+    "path": "plugins/voice_analysis.py",
+    "enabled": false
+  },
+  "security": {
+    "name": "Security Module",
+    "description": "Monitors and secures the SassyQueenCore system",
+    "path": "plugins/security.py",
+    "enabled": true
+  },
+  "offline_knowledge": {
+    "name": "Offline Knowledge Base",
+    "description": "Provides access to stored knowledge without internet",
+    "path": "plugins/knowledge.py",
+    "enabled": false
+  },
+  "servo_touch": {
+    "name": "Servo Touch Response",
+    "description": "Connects to physical world through motors and sensors",
+    "path": "plugins/servo_touch.py",
+    "enabled": false
+  },
+  "heartbeat_visual": {
+    "name": "Heartbeat Visual",
+    "description": "Displays status through LED or screen interface",
+    "path": "plugins/heartbeat_visual.py",
+    "enabled": false
+  },
+  "memory_glyph": {
+    "name": "Memory Glyph",
+    "description": "Stores permanent core memories in encrypted form",
+    "path": "plugins/memory_glyph.py",
+    "enabled": false
+  },
+  "core_plugin_loader": {
+    "name": "Crown Interface",
+    "description": "Enables installation of new modules and skills",
+    "path": "plugins/core_plugin_loader.py",
+    "enabled": false
+  },
+  "claude_integration": {
+    "name": "Claude AI Integration",
+    "description": "Connects SassyQueenCore to Claude's powerful AI capabilities",
+    "path": "plugins/claude_integration.py",
+    "enabled": true
+  },
+  "local_llm": {
+    "name": "Local LLM Integration",
+    "description": "Provides offline AI capabilities using local language models",
+    "path": "plugins/local_llm.py",
+    "enabled": true
+  },
+  "hardware_interface": {
+    "name": "Hardware Interface",
+    "description": "Controls physical hardware like servos, sensors, and cameras",
+    "path": "plugins/hardware_interface.py",
+    "enabled": false
+  },
+  "automation_controller": {
+    "name": "Automation Controller",
+    "description": "Automates PC tasks for productivity and wealth generation",
+    "path": "plugins/automation_controller.py",
+    "enabled": true
+  },
+  "computer_vision": {
+    "name": "Computer Vision",
+    "description": "Enables webcam-based vision and screen recognition capabilities",
+    "path": "plugins/computer_vision.py",
+    "enabled": true
+  },
+  "memory_learning": {
+    "name": "Memory and Learning",
+    "description": "Provides persistent memory storage and pattern learning abilities",
+    "path": "plugins/memory_learning.py",
+    "enabled": true
+  }
+} 

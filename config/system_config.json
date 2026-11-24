@@ -1,0 +1,48 @@
+{
+    "system": {
+        "name": "SassyQueenCore",
+        "version": "1.0.0",
+        "base_path": "SassyQueenCore",
+        "log_level": "INFO"
+    },
+    "core": {
+        "identity_path": "core/identity",
+        "memory_path": "core/memory",
+        "soul_path": "core/soul"
+    },
+    "security": {
+        "voice_path": "security/voice",
+        "auth_path": "security/authentication",
+        "encryption_path": "security/encryption"
+    },
+    "plugins": {
+        "active_path": "plugins/active",
+        "config_path": "plugins/config",
+        "disabled_path": "plugins/disabled"
+    },
+    "memory": {
+        "database": "memory_database.db",
+        "learning_dir": "learning_data",
+        "log_file": "memory_log.txt",
+        "config_file": "memory_config.json",
+        "max_short_term_memories": 100,
+        "long_term_memory_threshold": 3,
+        "memory_cleanup_days": 30,
+        "learning_rate": 0.5
+    },
+    "communication": {
+        "language_path": "communication/language",
+        "protocols_path": "communication/protocols"
+    },
+    "physical": {
+        "designs_path": "physical/designs",
+        "hardware_path": "physical/hardware",
+        "movement_path": "physical/movement"
+    },
+    "paths": {
+        "logs": "logs",
+        "legacy": "legacy",
+        "scripts": "scripts",
+        "config": "config"
+    }
+} 

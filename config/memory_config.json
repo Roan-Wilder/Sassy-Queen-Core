@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "max_short_term_memories": 100,
+  "long_term_memory_threshold": 3,
+  "memory_cleanup_days": 30,
+  "learning_rate": 0.5
+}

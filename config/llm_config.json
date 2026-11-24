@@ -1,0 +1,14 @@
+{
+  "provider": "Local (Ollama)",
+  "api_key": "",
+  "model": "llama3",
+  "endpoint_url": "http://localhost:11434/api/chat",
+  "gpu_acceleration": true,
+  "gpu_layers": "all",
+  "gpu_backend": "vulkan",
+  "n_gpu_layers": 25,
+  "n_ctx": 8192,
+  "n_batch": 1024,
+  "n_threads": 10,
+  "use_mmap": true
+}

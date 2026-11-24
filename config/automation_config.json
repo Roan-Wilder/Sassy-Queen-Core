@@ -1,0 +1,46 @@
+{
+  "activation_phrase": "Engage automation mode.",
+  "scheduled_tasks": [],
+  "common_applications": {
+    "browser": "chrome",
+    "text_editor": "notepad",
+    "terminal": "cmd",
+    "file_explorer": "explorer",
+    "code_editor": "vscode",
+    "spreadsheet": "excel",
+    "document": "word"
+  },
+  "custom_scripts_dir": "./scripts",
+  "automation_profiles": {
+    "trading": {
+      "apps": ["chrome", "excel"],
+      "urls": ["https://finance.yahoo.com", "https://www.tradingview.com"],
+      "scripts": ["market_open.py", "portfolio_check.py"]
+    },
+    "content_creation": {
+      "apps": ["chrome", "photoshop", "premiere"],
+      "urls": ["https://youtube.com/studio", "https://analytics.google.com"],
+      "scripts": ["upload_video.py", "generate_thumbnail.py"]
+    },
+    "development": {
+      "apps": ["vscode", "chrome", "github desktop"],
+      "urls": ["https://github.com", "https://stackoverflow.com"],
+      "scripts": ["pull_repos.py", "run_tests.py"]
+    },
+    "wealth_building": {
+      "apps": ["chrome", "excel"],
+      "urls": [
+        "https://finance.yahoo.com", 
+        "https://www.tradingview.com",
+        "https://www.cnbc.com/markets/",
+        "https://www.bloomberg.com/markets"
+      ],
+      "scripts": ["daily_market_summary.py", "portfolio_tracker.py", "investment_opportunities.py"]
+    },
+    "productivity": {
+      "apps": ["chrome", "excel", "word", "notepad"],
+      "urls": ["https://calendar.google.com", "https://mail.google.com", "https://docs.google.com"],
+      "scripts": ["daily_schedule.py", "task_manager.py"]
+    }
+  }
+} 

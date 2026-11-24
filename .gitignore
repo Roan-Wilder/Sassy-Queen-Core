@@ -1,0 +1,68 @@
+# Private development
+Agent/
+plugins/config/sassy_plugin_index.json
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Runtime data
+logs/
+learning_data/
+.requirements_installed
+mode_status.json
+last_extracted_model.json
+
+# Personal databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.backup
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+.soul_key
+
+# Model files
+*.gguf
+*.safetensors
+*.pt
+*.pth
+
+# GGUF extractor and model liberator tools
+build_vulkan_llama.bat
+gguf_advanced_injector.py
+gguf_image_extractor.py
+gguf_model_extractor.py
+launch_gguf_extractor.bat
+liberate_model.bat
+liberate_model.py
+model_liberator.py
+README_GGUF_Extractor.md
+requirements_gguf.txt
+gpu_model_loader.py
+model_loader.py
+scripts/clean_load_gguf.py
+scripts/fix_load_gguf.py
+scripts/load_gguf_model.py
+scripts/new_load_gguf.py
+scripts/temp_gguf_load.py
+
+# Temporary operating-system files
+.DS_Store
+Thumbs.db
+sample_memories.json
+libirate.txt
+
+README_GPU.md
+README_LLM.md
